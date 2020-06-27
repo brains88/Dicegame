@@ -1,0 +1,41 @@
+h1, h5{
+  text-align: center;
+  margin: 3% 15% 7%;
+}
+
+h6{
+  text-align: center;
+  margin: 3% 30% 7% 10%;
+
+}
+
+ul{
+  list-style-type: none;
+  counter-reset: group 0;
+}
+
+ul li::before{
+  counter-increment: group;
+  content: counters(group, ".")" ";
+}
+
+body{
+  background-color: #034767;
+  color: #EFE;
+}
+
+img{
+  border-radius: 1%;
+  padding: 1%;
+  height: 80%;
+  width: 80%;
+  display: inline-block;
+  }
+
+.img {
+  margin: 3% auto 5%;
+}
+.btn-container{
+  text-align: center;
+  margin: 2% auto;
+}
