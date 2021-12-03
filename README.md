@@ -1,2 +1,3 @@
-# Dicee
-A little practice with .js 
+
+A spin die game
+
